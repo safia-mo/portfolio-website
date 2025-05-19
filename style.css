@@ -19,6 +19,19 @@ header {
 nav a:hover {
   color: var(--highlight);
 }
+.hero-title {
+  background-color: #00B4D8;
+  color: white;
+  padding: 60px 20px;
+  text-align: left;
+}
+
+.hero-title h1 {
+  font-family: "Fascinate Inline", system-ui;
+  font-size: 3rem; 
+  margin: 0;
+  padding: 0;
+}
 
 section {
   background-color: var(--light);
