@@ -38,6 +38,7 @@ section {
 
 h1 {
   font-family: "Fascinate Inline", system-ui;
+  display: inline;
   font-weight: 400;
   font-style: normal;
 }
