@@ -31,7 +31,7 @@ section {
 }
 
 .hero-title {
-  background-color: #03045E;
+  background-color: #00B4D8;
   color: white;
   padding: 60px 20px;
   text-align: left;
@@ -39,6 +39,7 @@ section {
 
 .hero-title h1 {
   font-family: "Fascinate Inline", system-ui;
-  font-size: 4rem; 
+  font-size: 3rem; 
   margin: 0;
+  padding: 0;
 }
