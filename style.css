@@ -42,3 +42,16 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
+
+.hero-title {
+  background-color: #03045E;
+  color: white;
+  padding: 60px 20px;
+  text-align: left;
+}
+
+.hero-title h1 {
+  font-family: "Fascinate Inline", system-ui;
+  font-size: 4rem; 
+  margin: 0;
+}
