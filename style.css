@@ -1,45 +1,44 @@
+:root {
+  --primary: #03045E;
+  --accent: #0077B6;
+  --highlight: #00B4D8;
+  --light: #90E0EF;
+  --pale: #CAF0F8;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background: #f9f9f9;
-  color: #333;
+  background-color: var(--pale);
+  color: var(--primary);
 }
 
 header {
- padding-bottom: 20px;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-nav a {
+  background-color: var(--primary);
   color: white;
-  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--highlight);
 }
 
 section {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
-.hero-title {
-  background-color: #00B4D8;
-  color: white;
+  background-color: var(--light);
   padding: 60px 20px;
-  text-align: left;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-.hero-title h1 {
-  font-family: "Fascinate Inline", system-ui;
-  font-size: 3rem; 
-  margin: 0;
-  padding: 0;
+button {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--highlight);
 }
